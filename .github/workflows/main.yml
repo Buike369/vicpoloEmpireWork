@@ -27,6 +27,13 @@ jobs:
 
       - name: Install dependencies
         run: |
+          cd cc
+          rm -rf node_modules/
+          npm i
+          npm run build
+
+      - name: Install dependencies
+        run: |
           cd server
           rm -rf node_modules/
           npm ci install
