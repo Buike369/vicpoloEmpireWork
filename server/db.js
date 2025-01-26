@@ -15,7 +15,7 @@ db.getConnection((err, connection) => {
         console.error('Error connection', err)
     } else {
 
-        console.log("successful connection")
+        console.log("successful connection going")
 
     }
 })
