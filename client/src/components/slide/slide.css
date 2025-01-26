@@ -1,0 +1,296 @@
+.BlogD {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2px 15px;
+}
+
+.OuB {
+    color: #45afa0;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 500;
+    margin-top: 30px;
+    
+   
+}
+
+.OuB1 {
+    font-size: 3rem;
+    font-weight: 400;
+    /* color: #fff; */
+    color:#4e5773;
+    margin-bottom: 20px;
+    letter-spacing: 0.3px;
+   
+}
+.lllx{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+.prBord{
+border: 1px solid #2e8789;
+    padding: 5px 5px 5px 5px;
+    border-top: none;
+    border-right: none;
+    border-radius: 10px;
+    background-color: #45afa0;
+background: linear-gradient(71deg, #123b3b, #37e3ca52, #185353);
+position: relative;
+}
+.prBord3{
+    position: absolute;
+    border: 1px solid #2e8789;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    background-color:#185453;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 700px;
+    
+}
+.kk{
+    position: absolute;
+    bottom: 5px;
+}
+
+.OuB2 {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    
+}
+
+.TL {
+    font-size: 15px;
+    color: #4e5773;
+    width: 50%;
+    
+}
+
+.TLB {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.blogImgD {
+    height: 20rem;
+   
+
+}
+
+.BID1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.blogDivD {
+    width: 32%;
+}
+
+.textDD {
+    font-size: 1.2rem;
+    color: #f8f9fa;
+    margin-top: 20px;
+    padding: 3px 25px;
+    background-color: #2e756d;
+
+    width: fit-content;
+    border-radius: 8px
+}
+
+.RW {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+.DEfer{
+flex-wrap: wrap;
+}
+
+.Tuy {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.IOP {
+    /* color: #fff; */
+    color:#2f3a5b;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.ppL {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    /* color: #999a9f;
+     */
+     color:#4e5773;
+    display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+   
+}
+
+.shaI {
+    padding-top: 8rem;
+    margin-bottom: 5rem;
+}
+
+.YFW {
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.TSY {
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: #45afa0
+}
+
+.YFW2 {
+    /* color: #999a9f; */
+    color:#4e5773;
+    font-size: 1.3rem;
+}
+
+.YF {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.YFE {
+
+    border-left: 2px solid #27544d;
+}
+
+.YFE45 {
+    font-size: 1.5rem;
+    /* color: #fff; */
+    color:#2f3a5b;
+    font-weight: 600;
+    padding-left: 20px
+}
+
+.YFE1 {
+    /* color: #999a9f; */
+    color:#4e5773;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+.FaT1 {
+
+        /* background: linear-gradient(180deg, #09111d, #151b2d, #151b2d); */
+    padding-top: 5px;
+}
+
+.FaT {
+    /* background: ; */
+        /* background: linear-gradient(180deg, #151b2d, #0b101d, #080b18); */
+}
+.ghg {
+    border-bottom-left-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+    width:100%;
+    height:100%;
+    border-top-left-radius: 5px !important;
+        border-top-right-radius: 5px !important;
+}
+
+@media (max-width:768px) {
+    .Mikl {
+        width: 100%;
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+    .Mikl::-webkit-scrollbar {
+        display: none;
+        /* Hide scrollbar */
+    }
+    .ppL{
+        font-size: 14px;
+    }
+    .RW{
+            padding: 10px 15px;
+    }
+    .BlogD{
+        padding: 2px 0px;
+    }
+    .OuB2{
+flex-direction: column;
+    }
+    .IOP{
+    font-size: 1rem;
+    margin-top: 10px;
+    line-height: 1.4rem;
+    font-weight: 500;
+    }
+    .TL{
+        width: 100%;
+    }
+    .YFE45{
+        font-size: 1.2rem;
+    }
+    .YFE1{
+ font-size: 1rem;
+    line-height: 2rem;
+    }
+    .OuB1{
+font-size: 1.3rem;
+/* line-height: 0.3rem; */
+margin-bottom: 0px;
+font-weight: 500;
+    }
+        .OuB{
+            font-size: 1.7rem;
+            margin-top: 2.5rem;
+        }
+        .YFW{
+            line-height: 1.5rem;
+        }
+        .YF{
+            flex-direction: column;
+        }
+                .YFW, .TSY{
+                    font-size: 1.5rem;
+                }
+                                .shaI {
+                                    padding-top: 4rem;
+                                    margin-bottom: 1rem;
+                                }
+
+    .WR {
+        width: 900px;
+        overflow: hidden;
+        /* padding-left: 15px;
+        padding-right: 15px; */
+    }
+}
+@media (max-width:1200px){
+.OuB ,.OuB1,.OuB2,.YF, .YFW,.YFW2{
+    padding:2px 15px;
+}
+}

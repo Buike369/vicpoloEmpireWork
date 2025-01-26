@@ -1,0 +1,168 @@
+.about-us {
+ 
+  line-height: 1.6;
+  color: #979292;
+  margin: 0;
+  padding: 0;
+         background: linear-gradient(180deg, #061815, #061815, rgb(5 5 5));
+
+}
+
+.about-us-header {
+  text-align: center;
+  padding: 8rem;
+  /* min-height:350px; */
+    background: linear-gradient(180deg, #050505, #05100e, rgb(6 24 21));
+  color: white;
+}
+.OS{
+    text-align:center;
+    color:#fff;
+    font-size:30px;
+    font-weight:600;
+}
+.servicesNN,  .why-choose-us, .mission{
+    display:flex;
+    gap:20px;
+    width:100%;
+    max-width:1200px;
+    margin:0  auto  !important;
+}
+.why-choose-us{
+  height:350px
+}
+.servicesNN{
+padding-bottom: 30px;
+}
+.CH{
+    flex:1;
+}
+.ddy{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.miss{
+    flex:1;
+}
+.PhS{
+    width:100%;
+    border-radius:10px
+}
+.mission,
+.servicesNN,
+.why-choose-us,
+.contact {
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.mission {
+
+  height: 400px;
+  align-items: center;
+  margin-bottom: 60px  !important;
+}
+
+.Welcome {
+  color:#fff;
+  font-size: 52px;
+  line-height: 40px;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+    background: linear-gradient(168deg, #8cd3cb 7.37%, #3cadd5 25.38%, #308b7c 42.56%, #6dc59c 60.52%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 900;
+    margin-bottom: 15px;
+    margin-top: 5ch;
+}
+h3, h2{
+    color:#fff;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.FFont{
+  margin-bottom: 20px;
+}
+
+.you {
+  /* margin: 1rem 0; */
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.Ex .you::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #fff;
+}
+
+.service-item {
+  display: flex;
+  flex-direction:column;
+  /* align-items: center; */
+  margin: 0.7rem 0;
+      padding: 80px 15px 20px 15px;
+        border: 1px solid #6ca58d;
+        border-radius: 20px;
+            box-shadow: 0px 2px 16px 2px #26484487;
+              
+            /* box-shadow: 0px 2px 2px 2px #2e756d; */
+              backdrop-filter: blur(1000px);
+              background: linear-gradient(71deg, #050505, #171c1d, #2f3638);
+}
+
+.service-icon {
+  font-size: 2rem;
+  color: #2e756d;
+  margin-right: 1rem;
+}
+
+.service-item h3 {
+  margin-bottom: 10px;
+}
+
+.contact {
+  text-align: center;
+  /* background-color: #007BFF; */
+  color: white;
+  padding: 2rem;
+}
+@media(max-width:768px){
+  .about-us-header {
+
+      padding: 0;
+      min-height: auto;
+      margin-top: 30px;
+      /* max-width: 500px;
+      margin:4px   auto 20px auto */
+  }
+  .miss{
+    width:100%;
+  }
+  .mission{
+    height: auto;
+        padding: 1rem;
+          margin: 0rem 0;
+          flex-direction: column-reverse;
+          max-width: 500px;
+          margin: auto;
+  }
+    .servicesNN,
+    .why-choose-us{
+      flex-direction: column;
+      height: auto;
+      padding: 0.95rem;
+      max-width: 500px;
+      margin: auto;
+    }
+    .Welcome{
+font-size: 36px;
+    }
+     
+}
