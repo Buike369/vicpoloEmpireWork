@@ -14,7 +14,7 @@ jobs:
     
     strategy:
       matrix:
-        node-version: ['20.x']
+        node-version: ['18.x']
 
     steps:
       - name: Checkout code
@@ -27,8 +27,23 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd cc
-          npm i
-          npm run build
+          cd server
+          rm -rf node_modules/
+          npm ci install
 
-    
+      - name: Export environment variables
+        env:
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_PORT: ${{ secrets.DB_PORT }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+        run: echo "Environment variables set."
+
+      - name: Restart services
+        run: |
+          npm update
+          pm2 stop 0
+          pm2 start 0
+          pm2 save
+          sudo service nginx restart

@@ -2,7 +2,7 @@
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { db } = require('../db.js')
-const mysql = require('mysql2/promise');
+
 require('dotenv').config();
 
 
