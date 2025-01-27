@@ -90,7 +90,7 @@ const ButtonTwo =({onClick})=>{
 <div className="earnSayPp">
   <div className='sHe1'></div>
   {/* <img src="/img/eme1.svg" alt="" className='sHe'/> */}
-  <p className="partnerShip">"The team at VicoploEmpire exceeded our expectations with their creativity and professionalism, delivering a product that truly reflected our vision and values."</p>
+  <p className="partnerShip">"The team at VicpoloEmpire exceeded our expectations with their creativity and professionalism, delivering a product that truly reflected our vision and values."</p>
   <div className="favourPath">
     <div><img src="/pho.avif" alt="" className="popopo"/></div>
      <div>
@@ -103,7 +103,7 @@ const ButtonTwo =({onClick})=>{
  <div style={{padding:"4px 15px"}}>           
 <div className="earnSayPp">
   {/* <img src="/photo.avif" alt="" className='sHe'/> */}
-  <p className="partnerShip">"Innovative solutions and seamless support. VicoploEmpire delivers excellence"</p>
+  <p className="partnerShip">"Innovative solutions and seamless support. VicpoloEmpire delivers excellence"</p>
   <div className="favourPath">
     <div><img src="/pho.avif" alt="" className="popopo"/></div>
      <div>
@@ -118,7 +118,7 @@ const ButtonTwo =({onClick})=>{
   {/* <img src="/img/eme1.svg" alt="" className='sHe'/> */}
   <p className="partnerShip">"
 
-VicopoloEmpire transformed our brand with stunning visuals and effective marketing strategies."</p>
+VicpoloEmpire transformed our brand with stunning visuals and effective marketing strategies."</p>
   <div className="favourPath">
     <div><img src="/pho.avif" alt="" className="popopo"/></div>
      <div>
@@ -131,7 +131,7 @@ VicopoloEmpire transformed our brand with stunning visuals and effective marketi
 <div style={{padding:"4px 15px"}}>
 <div className="earnSayPp">
   {/* <img src="/img/eme1.svg" alt="" className='sHe'/> */}
-  <p className="partnerShip">"The team at VicopoloEmpire exceeded our expectations with their creativity and professionalism, delivering a product that truly reflected our vision and values."</p>
+  <p className="partnerShip">"The team at VicpoloEmpire exceeded our expectations with their creativity and professionalism, delivering a product that truly reflected our vision and values."</p>
   <div className="favourPath">
     <div><img src="/pho.avif" alt="" className="popopo"/></div>
      <div>

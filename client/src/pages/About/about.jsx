@@ -9,7 +9,7 @@ const AboutUs = () => {
   return (
     <div className="about-us">
       <header className="about-us-header">
-        <div   className="Welcome">Welcome to VicoploEmpire</div>
+        <div   className="Welcome">Welcome to VicpoloEmpire</div>
         <p>Your ultimate partner in Media, Web Development, and AI.</p>
       </header>
 
@@ -17,7 +17,7 @@ const AboutUs = () => {
         <div className="miss">
         <h2>Our Mission</h2>
         <p>
-         Our mission at VicoploEmpire is to bring your ideas to life with top-notch video production, media services, web development, and AI solutions. We aim to create digital experiences that inspire and help our clients succeed and grow in the modern world.
+         Our mission at VicpoloEmpire is to bring your ideas to life with top-notch video production, media services, web development, and AI solutions. We aim to create digital experiences that inspire and help our clients succeed and grow in the modern world.
         </p>
         </div>
         <div className="miss"><img src="photo23.avif"  alt="" className="PhS" /></div>
@@ -63,7 +63,7 @@ const AboutUs = () => {
 
       {/* <footer className="contact">
         <h2>Contact Us</h2>
-        <p>Let's create something extraordinary together. Get in touch with VicoploEmpire today!</p>
+        <p>Let's create something extraordinary together. Get in touch with VicpoloEmpire today!</p>
       </footer> */}
     </div>
   );

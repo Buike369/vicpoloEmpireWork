@@ -42,7 +42,7 @@ const Register =()=>{
 
 
                     
-                    <div className="Checkbox_div"> <input type="checkbox" className="Bym" name="term" /><p className="Over_18 adColor">By checking this box you agree to all our Terms & Conditions.Click to  <a href="/terms_and_condition" className="trems1">here</a> to read.</p></div>
+                    <div className="Checkbox_div"> <input type="checkbox" className="Bym" name="term" /><p className="Over_18 adColor">By checking this box you agree to all our Terms & Conditions.Click to  <a href="/terms" className="trems1">here</a> to read.</p></div>
 
                      <div  className="loginn" >Register</div>
                      <div className="Or_with2">
@@ -67,4 +67,4 @@ const Register =()=>{
     )
 }
 
-export default withTitle(Register,  "Register with VicopoloEmpire");
+export default withTitle(Register,  "Register with VicpoloEmpire");

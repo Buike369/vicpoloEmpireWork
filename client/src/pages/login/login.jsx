@@ -20,7 +20,7 @@ const Login =()=>{
            <div className="Form_Div renttt pK">
                <form>
                   
-                  <div className="welcome4 textAdmin">Sign in  to VicopoloEmpire</div>
+                  <div className="welcome4 textAdmin">Sign in  to VicpoloEmpire</div>
                                        <div><label className="LabNa">Email</label></div>
                   <div> <input type="email" placeholder="" className="Full_Name " name="email" /></div>
                                        <div><label className="LabNa">Password</label></div>
@@ -52,4 +52,4 @@ const Login =()=>{
     )
 }
 
-export default withTitle(Login, "Sign In to VicoploEmpire");
+export default withTitle(Login, "Sign In to VicpoloEmpire");

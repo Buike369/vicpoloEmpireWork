@@ -10,7 +10,7 @@ const Services = () => {
 <div  className='ServicesTag1'>
     <img src="ooorgan.svg" alt="" className='AbbL'/>
     <div  className='ServicesTag2'>Unleashing Creativity in Media, Web, and AI </div>
-    <div  className='ServicesTag3'>At VicoploEmpire, we creates stunning media, builds powerful websites, and develops smart AI solutions to help your business grow.</div>
+    <div  className='ServicesTag3'>At VicpoloEmpire, we creates stunning media, builds powerful websites, and develops smart AI solutions to help your business grow.</div>
 </div>
 
 <div  className='ServicesTag4'>

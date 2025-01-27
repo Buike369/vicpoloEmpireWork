@@ -7,10 +7,10 @@ const TermsAndService = () => {
     <div className='priP'>
         <div className='privacyHousing'>
                         <div className='lico'>Terms And Condition</div>
-            <p className='toPros'>Welcome to VicopoloEmpire. These Terms and Conditions govern your use of our website and services, including web development, video production, branding,AI services and digital marketing solutions. By accessing or using our services, you agree to comply with and be bound by these terms. If you do not agree to these terms, please do not use our services.</p>
+            <p className='toPros'>Welcome to VicpoloEmpire. These Terms and Conditions govern your use of our website and services, including web development, video production, branding,AI services and digital marketing solutions. By accessing or using our services, you agree to comply with and be bound by these terms. If you do not agree to these terms, please do not use our services.</p>
             <div>
                 <p className='InfoCollect' >Services</p>
-                <p className='toPros'>VicopoloEmpire provides video production, branding design, photography services, web development and ai  services, including custom web development, mobile app development, UX/UI design, e-commerce solutions, and ongoing maintenance and support.</p>
+                <p className='toPros'>VicpoloEmpire provides video production, branding design, photography services, web development and ai  services, including custom web development, mobile app development, UX/UI design, e-commerce solutions, and ongoing maintenance and support.</p>
             </div>
            
 
@@ -91,7 +91,7 @@ const TermsAndService = () => {
          </div>
          <div>
             <p className='InfoCollect'>Contact Us</p>
-            <p className='toPros'>For any questions or concerns regarding these Terms and Conditions, please Email us :<span>  <a href="mailto:chukwubuikekingsley369@gmail.com" className='' style={{color:"#2f3a5b"}}>chukwubuikekingsley369@gmail.com</a></span> </p>
+            <p className='toPros'>For any questions or concerns regarding these Terms and Conditions, please Email us :<span>  <a href="mailto:support@vicpoloempire.com" className='' style={{color:"#2f3a5b"}}>support@vicpoloempire.com</a></span> </p>
            
          </div>
         </div>
@@ -99,4 +99,4 @@ const TermsAndService = () => {
   )
 }
 
-export default withTitle(TermsAndService, 'Terms and Condition Of - Adane Technology');
+export default withTitle(TermsAndService, 'Terms and Condition Of - vicpoloempire');

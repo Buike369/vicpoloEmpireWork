@@ -21,7 +21,7 @@ const Footer = () => {
          < div className='FooterDiv8'>
           < div className='FooterDiv3'>Design</ div >
           < div className='FooterDiv9'><a  href="tel:+2348167029609" style={{color:"#767676"}}>+234 907 1071 018</a></ div >
-          < div className='FooterDiv10'><a  href="mailto:support@vicpoloempire.com" style={{color:"#767676"}}>support@vicploempire.com</a></ div >
+          < div className='FooterDiv10'><a  href="mailto:support@vicpoloempire.com" style={{color:"#767676"}}>support@vicpoloempire.com</a></ div >
          </ div >
           < div className='FooterDiv8'>
             < div className='FooterDiv3'>Services</ div >
@@ -37,7 +37,7 @@ const Footer = () => {
           </ div >
       </ div >
     </ div >
-      < div className='FooterDiv15'>© 2025  VicopoloEmpire. All rights reserved.</ div >
+      < div className='FooterDiv15'>© 2025  VicpoloEmpire. All rights reserved.</ div >
     </div>
   )
 }
