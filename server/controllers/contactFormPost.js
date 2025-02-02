@@ -6,7 +6,7 @@ var validator = require("email-validator");
 
 const formSubmit = async (req, res) => {
 
-    console.log(req.body)
+    // console.log(req.body)
     try {
 
         const { fullName, email, phone, subject, message } = req.body;
@@ -32,8 +32,8 @@ const formSubmit = async (req, res) => {
         });
 
         const mailOptions = {
-            from: 'Adane Technology',
-            to: 'chukwubuikekingsley369@gmail.com',
+            from: 'VicpoloEmpire',
+            to: 'support@vicpoloempire.com',
             subject: externalData.subject,
             html: `<html>
                       <body>

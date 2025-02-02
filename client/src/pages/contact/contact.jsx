@@ -63,7 +63,7 @@ setError("invalid Email")
     }else{
  try{
     // const response = await axios.post("http://localhost:8080/api/post/form",inputs1);
-    const response = await axios.post("https://adanebackend.onrender.com/api/post/form",inputs1);
+    const response = await axios.post("https://vicpoloempire/api/form/contact-us",inputs1);
         // axios.post("http://localhost:8080/api/post/form",inputs).then((response)=>{
 
                   if (response.status === 201) {
@@ -101,7 +101,7 @@ setError("invalid Email")
 
 
     
- const inputs = [{label:"Full Name",type:"text", name:"fullName",holder:"Full Name",value:inputs1.fullName,icon:faAddressBook},{label:"Company Name",type:"text",name:"subject",holder:"Company Name",value:inputs1.subject,icon:faHouse},{label:"Email",type:"email",name:"email",holder:"Email",value:inputs1.email,icon:faEnvelope},{label:"Phone",type:"number",name:"phone",holder:"Phone",value:inputs1.phone,icon:faPhone}]
+ const inputs = [{label:"Full Name",type:"text", name:"fullName",holder:"Full Name",value:inputs1.fullName,icon:faAddressBook},{label:"Subject",type:"text",name:"subject",holder:"Subject",value:inputs1.subject,icon:faHouse},{label:"Email",type:"email",name:"email",holder:"Email",value:inputs1.email,icon:faEnvelope},{label:"Phone",type:"number",name:"phone",holder:"Phone",value:inputs1.phone,icon:faPhone}]
 
   const PhoneNum ="+2349071071018"
  const socialLink = [{icon:faTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86TowzZrQ7X_21swBIg&s=09"},{icon:faFacebookF,link:"https://www.facebook.com/profile.php?id=100070000591981&mibextid=ZbWKwL"},{icon:faTelegram,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faYoutube,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"}]
