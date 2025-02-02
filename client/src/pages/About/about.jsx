@@ -10,7 +10,7 @@ const AboutUs = () => {
     <div className="about-us">
       <header className="about-us-header">
         <div   className="Welcome">Welcome to VicpoloEmpire</div>
-        <p>Your ultimate partner in Media, Web Development, and AI.</p>
+        <p> A leading media agency specializing in branding, web development, Ai service, data analysis, content creation, ads, and digital marketing. We turn ideas into stunning visual experiences for your business and grow your brand.</p>
       </header>
 
       <div className="mission">

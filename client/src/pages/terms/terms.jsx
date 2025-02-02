@@ -62,7 +62,7 @@ const TermsAndService = () => {
                                 <p className='InfoCollect'>Limitation of Liability</p>
                 <div className='DivGu'>
                 <div className='toPros mkil'> <span className='lion'>1.</span>  <p className='toPros'><span className="change"> Disclaimer: </span>Our services are provided "as is" and we make no warranties or representations about the accuracy, reliability, or completeness of the services or any content.</p></div>
-                <div className=' mkil'> <span className='lion'>2.</span> <p className='toPros'><span className="change">  Liability :  </span>To the maximum extent permitted by law, Adane Tech is not liable for any indirect, incidental, or consequential damages arising from the use of our services, including but not limited to loss of profits, data, or business opportunities.</p></div>
+                <div className=' mkil'> <span className='lion'>2.</span> <p className='toPros'><span className="change">  Liability :  </span>To the maximum extent permitted by law, VicpoloEmpire is not liable for any indirect, incidental, or consequential damages arising from the use of our services, including but not limited to loss of profits, data, or business opportunities.</p></div>
                  
                
                 </div>
@@ -91,7 +91,7 @@ const TermsAndService = () => {
          </div>
          <div>
             <p className='InfoCollect'>Contact Us</p>
-            <p className='toPros'>For any questions or concerns regarding these Terms and Conditions, please Email us :<span>  <a href="mailto:support@vicpoloempire.com" className='' style={{color:"#2f3a5b"}}>support@vicpoloempire.com</a></span> </p>
+            <p className='toPros'>For any questions or concerns regarding these Terms and Conditions, please Email us :<span>  <a href="mailto:support@vicpoloempire.com" className='' style={{color:"#fff"}}>support@vicpoloempire.com</a></span> </p>
            
          </div>
         </div>
