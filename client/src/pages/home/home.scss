@@ -239,6 +239,7 @@ $button-color: #fff;
             .IconImg{
                 width:100px;
                 height: 100px;
+              
 
                 .serviceIcon{
                     font-size: 5rem;
@@ -247,12 +248,17 @@ $button-color: #fff;
                 }
             }
             .FImg{
+                width:150px;
+                height:100px;
+                position:absolute;
+                 top: -27px;
+    right: -27px;
                 img{
                        width: 100%;
-    position: absolute;
-    top: -88px;
-    left: 42px;
-    transform: rotate(52deg);
+    // osition: absolute;
+    // top: -88px;
+    // right: 42px;p
+    // transform: rotate(207deg);
                   
                 }
             }

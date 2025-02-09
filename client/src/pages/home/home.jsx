@@ -11,7 +11,7 @@ import Testimony  from "../../components/testimony/testimony"
 
 const Home = () => {
 
-  const card =[{id:1,img: faVideo, header:'Video Production',text:"Crafting compelling stories through high-quality video."},{id:2,img:faPalette, header:"Branding Design", text:"Designing unique brand identities that resonate"},{id:3, img:faCameraRetro, header:"Photography Services", text:"Engaging digital marketing strategies for growth."},{id:4, img:faLaptopCode, header:"Web Development", text:"Build dynamic, secure, user-friendly websites for everyone."},{id:5, img:faRobot, header:"AI Services", text:"Develop AI-powered, secure, user-friendly solutions for everyone."}]
+  const card =[{id:1,img: faVideo, header:'Video Production',text:"Crafting compelling stories through high-quality video.",img2:"/AfterNoon.png"},{id:2, img:faPalette, header:"Branding Design", text:"Designing unique brand identities that resonate", img2:"/BBRa.png"},{id:3, img:faCameraRetro, header:"Photography Services", text:"Engaging digital marketing strategies for growth.",img2:"/PPHa.png"},{id:4, img:faLaptopCode, header:"Web Development", text:"Build dynamic, secure, user-friendly websites for everyone.",img2:"/AfterNoon3.png"},{id:5, img:faRobot, header:"AI Services", text:"Develop AI-powered, secure, user-friendly solutions for everyone.", img2:"/AAai.png"}]
    const card1 =[{id:1,img:"/phot.avif", header:'Video Production Service',text:"Expertly crafted videos that engage audiences and elevate your brand's storytelling to new heights."},{id:2,img:"/photong.avif", header:"Branding & Design", text:"Unique branding solutions that resonate with your audience, enhancing your identity and market presence effectively."},{id:3, img:'/phot1.avif', header:"Strategic marketing services", text:"Engaging digital marketing strategies for growth."}]
 
      const { hash } = useLocation();
@@ -57,7 +57,7 @@ const Home = () => {
         <div className='serviceCard' key={app.id}  data-aos="fade-up" data-aos-duration="500"
              data-aos-easing="linear" >
           <div  className='FImg'>
-            <img  src="/iii.svg" alt=""/>
+            <img  src={app.img2} alt=""/>
            </div>
            <div  className='IconImg'>
 < FontAwesomeIcon icon={app.img} className="serviceIcon" />
