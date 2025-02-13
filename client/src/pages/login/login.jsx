@@ -1,6 +1,7 @@
 import React,{useState,useContext} from "react";
 import "../register/register.css";
 import withTitle from '../..//title';
+import axios from 'axios';
 import "./login.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye,faEyeSlash} from '@fortawesome/free-solid-svg-icons'
@@ -10,11 +11,12 @@ import Navbar from "../../components/navbar/navbar"
 
 const Login =()=>{
 
+     const navigate = useNavigate();
+     const vicpo =  '/api';
+
      const [inputs,setInputs]=useState({
-        username:"",
         email:"",
-        password:"",
-        referralCode:"",
+        password:""
     })
 
      const [inputs50,setInputs50]=useState({
@@ -27,6 +29,17 @@ const Login =()=>{
 const handleClickShowPassword = () => {
         setInputs50(prev=>({ ...prev, showPassword: !inputs50.showPassword }));
       };
+
+       const handleLogin = async (e) => {
+    e.preventDefault();
+    try {
+      const res = await axios.post(`${vicpo}/auth/login`, inputs);
+      localStorage.setItem('token', res.data.token);
+      navigate('/dashboard');
+    } catch (error) {
+      alert(error.response?.data?.message || 'Login failed');
+    }
+  };
 
     return(
         <div className="BgColor" >
@@ -50,7 +63,7 @@ const handleClickShowPassword = () => {
                   /> */}
 {/* <FontAwesomeIcon icon={faEye} className="PlusIcon plusIcon2 ser1" />:<FontAwesomeIcon icon={faEyeSlash} className="PlusIcon plusIcon2 ser1" /> */}
  {/* </div> */}
-                  <div className="loginn">Log In</div>
+                  <div className="loginn" onClick={handleLogin} >Log In</div>
                   {/* {err && <p className="errorP">{err}</p>} */}
                   <p className="FofD">Forget password ? <a href="/" className="sesetP"><span className="ClickMe">Click Here</span></a> </p>
                   <div className="Or_with2">

@@ -1,21 +1,25 @@
 import React,{useState} from "react";
 import "./register.css"
+import axios from 'axios';
 import withTitle from '../..//title';
-import { Link,useNavigate} from "react-router-dom";
+import { Link,useNavigate} from "react-router";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye,faEyeSlash} from '@fortawesome/free-solid-svg-icons'
 import { faGooglePlusG}from '@fortawesome/free-brands-svg-icons'
 import Navbar from "../../components/navbar/navbar"
 
 
-// KEY=AIzaSyCRKXMIcUH0WQRq1znBz7EF9Oue5TjXJyM
+
+
 const Register =()=>{
 
+       const vicpo =  '/api';
+     const navigate = useNavigate();
      const [inputs,setInputs]=useState({
         username:"",
         email:"",
-        password:"",
-        referralCode:"",
+        password:""
+       
     })
 
      const [inputs50,setInputs50]=useState({
@@ -28,6 +32,18 @@ const Register =()=>{
 const handleClickShowPassword = () => {
         setInputs50(prev=>({ ...prev, showPassword: !inputs50.showPassword }));
       };
+
+
+      const handleRegister = async (e) => {
+    e.preventDefault();
+    try {
+      await axios.post(`${vicpo}/auth/register`, inputs);
+      alert('Registration successful! Please log in.');
+      navigate('/login');
+    } catch (error) {
+      alert(error.response?.data?.message || 'Registration failed');
+    }
+  };
   
     return(
         <div className="BgColor" >
@@ -56,13 +72,8 @@ const handleClickShowPassword = () => {
                  {/* <FontAwesomeIcon icon={faEye} className="PlusIcon plusIcon2 ser1" />:<FontAwesomeIcon icon={faEyeSlash} className="PlusIcon plusIcon2 ser1" onClick={handleClickShowPassword}/>  */}
                  {/* </div> */}
                  
-                  
-
-
-                    
-                    <div className="Checkbox_div"> <input type="checkbox" className="Bym" name="term" /><p className="Over_18 adColor">By checking this box you agree to all our Terms & Conditions.Click to  <a href="/terms" className="trems1">here</a> to read.</p></div>
-
-                     <div  className="loginn" >Register</div>
+            
+                     <div  className="loginn" onClick={handleRegister}>Register</div>
                      <div className="Or_with2">
                          <div className="Or_With"></div>
                          <p className="adColor">Or register with</p>
@@ -72,7 +83,7 @@ const handleClickShowPassword = () => {
                    
                      <div className="Googgle  page12"  ><FontAwesomeIcon icon={faGooglePlusG} className="gooleI" style={{width:"20%"}} /><div> Sign in with Google</div><div  style={{width:"8%"}}><FontAwesomeIcon  className="goole" /></div></div>
                      <p className="Already_Account adColor">Already have an account?</p>
-                     <div className="LOGIN_HERE_NOW"><Link to="/login" className="p_LoGIn trems1">Login Here</Link></div>
+                     <div className="LOGIN_HERE_NOW"><Link to="/login" className="p_LoGIn trems1" style={{color:"#fff"}}>SignIn Here</Link></div>
 
                 </form>
             </div>

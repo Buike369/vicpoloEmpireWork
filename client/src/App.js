@@ -15,7 +15,10 @@ import Login  from "./pages/login/login"
 import About  from "./pages/About/about"
 import Services from "./pages/services/services"
 import Terms from "./pages/terms/terms"
+import Dashboard from './pages/Dashboard/dashboard'
 import UserInfo from "./pages/userInfo/newsLetter"
+import AdminPanel from "./pages/userInfo/userInfo"
+import PrivateRoute from './components/privateRoutes';
 
 
 const Layout = () => {
@@ -62,6 +65,17 @@ const router = createBrowserRouter([
         path: "/terms",
         element: <Terms />
       }
+      ,
+      {
+        path: "/dashboard",
+        element: <PrivateRoute component={Dashboard} />
+      }
+      ,
+      {
+        path: "/admin",
+        element: <PrivateRoute component={AdminPanel}  adminOnly/>
+      }
+      
     ]
   },
       {

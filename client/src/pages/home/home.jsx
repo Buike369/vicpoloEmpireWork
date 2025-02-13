@@ -11,7 +11,7 @@ import Testimony  from "../../components/testimony/testimony"
 
 const Home = () => {
 
-  const card =[{id:1,img: faVideo, header:'Video Production',text:"Crafting compelling stories through high-quality video.",img2:"/AfterNoon.png"},{id:2, img:faPalette, header:"Branding Design", text:"Designing unique brand identities that resonate", img2:"/BBRa.png"},{id:3, img:faCameraRetro, header:"Photography Services", text:"Engaging digital marketing strategies for growth.",img2:"/PPHa.png"},{id:4, img:faLaptopCode, header:"Web Development", text:"Build dynamic, secure, user-friendly websites for everyone.",img2:"/AfterNoon3.png"},{id:5, img:faRobot, header:"AI Services", text:"Develop AI-powered, secure, user-friendly solutions for everyone.", img2:"/AAai.png"}]
+  const card =[{id:1, img:faLaptopCode, header:"Web Development", text:"Build dynamic, secure, user-friendly websites for everyone.",img2:"/AfterNoon3.png"},{id:2, img:faPalette, header:"Branding Design", text:"Designing unique brand identities that resonate", img2:"/BBRa.png"},{id:3, img:faCameraRetro, header:"Photography Services", text:"Engaging digital marketing strategies for growth.",img2:"/PPHa.png"},{id:4,img: faVideo, header:'Video Production',text:"Crafting compelling stories through high-quality video.",img2:"/AfterNoon.png"},{id:5, img:faRobot, header:"AI Services", text:"Develop AI-powered, secure, user-friendly solutions for everyone.", img2:"/AAai.png"}]
    const card1 =[{id:1,img:"/phot.avif", header:'Video Production Service',text:"Expertly crafted videos that engage audiences and elevate your brand's storytelling to new heights."},{id:2,img:"/photong.avif", header:"Branding & Design", text:"Unique branding solutions that resonate with your audience, enhancing your identity and market presence effectively."},{id:3, img:'/phot1.avif', header:"Strategic marketing services", text:"Engaging digital marketing strategies for growth."}]
 
      const { hash } = useLocation();
@@ -77,7 +77,7 @@ const Home = () => {
           {/* <div className="CratU"></div> */}
           <div  className='Craft2'>Creating Compelling Visual Journey</div>
           
-          <p className='Craft3'>At VicopoloEmpire, we specialize in premium video production, branding,  web development, AI services and digital marketing to help brands connect and engage with their audience through innovative visual experiences.</p>
+          <p className='Craft3'>At VicpoloEmpire, we specialize in premium video production, branding,  web development, AI services and digital marketing to help brands connect and engage with their audience through innovative visual experiences.</p>
    <div className='Craft7'>
   <div className='Craft4'>
     <div className='Craft5'>150+</div>
