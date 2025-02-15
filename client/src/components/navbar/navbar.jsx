@@ -204,7 +204,7 @@ const Header = () => {
            <ul className="NavbarUl">
            {/* <li><FontAwesomeIcon icon={faSearch}  className=""/> Search</li>  */}
            {/* <li><button className='NowB'>ON</button></li> */}
-           <li><div style={{display:"flex",gap:"10px"}}><a href="/contact" className="navbar1_link loginButton">Contact Us</a><a href="/login" className="navbar1_link loginButton" style={{backgroundColor:'#fff',color:"#000"}}>Login</a></div></li>
+           <li><div style={{display:"flex",gap:"10px"}}><a href="/contact" className="navbar1_link loginButton wewem">Contact Us</a><a href="/login" className="navbar1_link loginButton" style={{backgroundColor:'#fff',color:"#000"}}>Login</a></div></li>
                      
            {/* <li><a href="/register" className="navbar1_link ">Join for free <FontAwesomeIcon icon={faArrowRight}  className=""/></a></li> */}
            </ul>

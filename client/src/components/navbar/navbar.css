@@ -178,6 +178,14 @@ a {
     display: flex;
 }
 
+.navbar1_link:hover{
+    color:#4fddc1;
+}
+.wewem:hover{
+    background-color:#ff !important;
+    color:#000 !important
+}
+
 @media (max-width:768px) {
 
     .nacBar,

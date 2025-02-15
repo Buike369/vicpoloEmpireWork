@@ -188,6 +188,8 @@
 }
 
 .loginButton:hover {
+ background-color: #2e756d !important;
+ color:#fff !important;
 
 
     transform: translateY(-3px);

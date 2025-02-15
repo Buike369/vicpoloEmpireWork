@@ -158,6 +158,11 @@ $button-color: #fff;
                         width: 180px;
                         word-break: break-word;
                         border: 0;
+
+                        &:hover{
+                            background-color: #fff;
+                            color:#000;
+                        }
                     
             }
 
@@ -210,7 +215,8 @@ $button-color: #fff;
         .serviceCard {
             padding: 130px 15px 25px 15px;
             border-radius: 8px;
-            // border: 1px solid grayscale($color: #000000);
+            
+            border: 1px solid #2e756d;
     background: linear-gradient(71deg, #050505, #171c1d, #2f3638);
             box-sizing: border-box;
             // width: calc(30% -  10px);
@@ -239,6 +245,8 @@ $button-color: #fff;
             .IconImg{
                 width:100px;
                 height: 100px;
+                // position: relative;
+                //     z-index: 1;
               
 
                 .serviceIcon{
@@ -248,11 +256,13 @@ $button-color: #fff;
                 }
             }
             .FImg{
-                width:70%;
-                height:100px;
-                position:absolute;
-                 top: -27px;
-    right: -27px;
+        width: 100%;
+            /* height: 100px; */
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: -10px;
                 img{
                        width: 100%;
     // osition: absolute;
@@ -264,18 +274,26 @@ $button-color: #fff;
             }
             .Vp{
                 font-size: 18px;
-                font-weight: 600;
-                position:relative;
-                z-index:1;
-                margin-bottom: 15px;
+                    font-weight: 600;
+                    position: relative;
+                    z-index: 1;
+                    margin-bottom: 15px;
+                    color: #1b1c1c;
+                    background: #fff;
+                    padding: 3px 10px;
+                    border-radius: 4px;
+                    width: fit-content;
             }
             .Vp1{
-                font-size: 14px;
+            font-size: 14px;
                 letter-spacing: 0.5px;
                 font-weight: 500;
-                color:#b5b5b5;
-                 position:relative;
-                z-index:1;
+                color: #141e19;
+                position: relative;
+                padding: 5px 10px;
+                border-radius: 4px;
+                z-index: 1;
+                background: #fff;
             }
         }
     }

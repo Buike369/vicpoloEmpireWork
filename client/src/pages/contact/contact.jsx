@@ -172,8 +172,8 @@ setError("invalid Email")
                         <div className='graceDay'>
                             Contact Information
                         </div>
-                        <div className='wedDis'>Office Phone:  <a href={`tel:${PhoneNum}`} style={{color:"#51bfb2",fontWeight:"600"}}>+234 907 1071 018</a></div>
-                        <div className='wedDis'>Email: <a href="mailto:support@vicpoloempire.com" style={{color:"#fff"}}>support@vicpoloempire.com</a></div>
+                        <div className='wedDis'>Office Phone:  <a href={`tel:${PhoneNum}`} className="tWE" style={{fontWeight:"600"}}>+234 907 1071 018</a></div>
+                        <div className='wedDis'>Email: <a href="mailto:support@vicpoloempire.com"  className="LKIP" >support@vicpoloempire.com</a></div>
                         <div className='deed'>Mailing Address:</div>
                         <div className='wedDis'>P.O. Box 1639</div>
                         <div className='wedDis'>Boring, OR 97009</div>

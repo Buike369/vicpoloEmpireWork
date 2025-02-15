@@ -37,7 +37,7 @@ const handleClickShowPassword = () => {
       const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      await axios.post(`${vicpo}/auth/register`, inputs);
+      await axios.post(`https://vicpoloempire.com/api/auth/register`, inputs);
       alert('Registration successful! Please log in.');
       navigate('/login');
     } catch (error) {

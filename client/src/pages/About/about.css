@@ -10,7 +10,7 @@
 
 .about-us-header {
   text-align: center;
-  padding: 8rem;
+  padding: 4rem;
   /* min-height:350px; */
     background: linear-gradient(180deg, #050505, #05100e, rgb(6 24 21));
   color: white;
@@ -33,10 +33,14 @@
 }
 .servicesNN{
 padding-bottom: 30px;
+
 }
 .CH{
     flex:1;
 }
+/* .bbopo{
+  padding:10px;
+} */
 .ddy{
     width:100%;
     height: 100%;
@@ -76,7 +80,7 @@ padding-bottom: 30px;
     background-clip: text;
     font-weight: 900;
     margin-bottom: 15px;
-    margin-top: 5ch;
+    margin-top: 20px;
 }
 h3, h2{
     color:#fff;
@@ -107,6 +111,7 @@ ul {
   flex-direction:column;
   /* align-items: center; */
   margin: 0.7rem 0;
+ 
       padding: 80px 15px 20px 15px;
         border: 1px solid #6ca58d;
         border-radius: 20px;
@@ -165,4 +170,10 @@ ul {
 font-size: 36px;
     }
      
+}
+@media(min-width:769px){
+  .bbopo{
+ width:80%;
+ margin:auto
+}
 }

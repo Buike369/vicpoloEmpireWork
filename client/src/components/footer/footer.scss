@@ -31,6 +31,12 @@
                     color:#fff;
                    
                 }
+                a{
+                    &:hover{
+                        color: #fff !important;
+                    }
+                }
+           
             }
       .FooterDiv14{
         ul{
@@ -82,6 +88,12 @@
                                 background: #00a38d;
                                 color: #fff;
                                 width: 30%;
+
+                                &:hover{
+                                    background-color: #fff;
+                                    color:#000;
+                                    cursor:pointer
+                                }
                         }
             
                     }
