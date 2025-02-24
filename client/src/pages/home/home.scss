@@ -88,6 +88,25 @@ $button-color: #fff;
     }
   }
 
+  .ff{
+    height:100%;
+    max-height: 420px;
+    overflow: hidden;
+ 
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+           object-fit:cover;
+            @media(max-width:769px) {
+                    display: none;
+            
+                }
+
+
+
+    }
+  }
         .sectionMainA {
             flex: 1;
         
@@ -214,25 +233,30 @@ $button-color: #fff;
 
         .serviceCard {
             padding: 130px 15px 25px 15px;
-            border-radius: 8px;
+            border-radius: 14px;
             
-            border: 1px solid #2e756d;
+            border: 3px solid #2e756d;
     background: linear-gradient(71deg, #050505, #171c1d, #2f3638);
             box-sizing: border-box;
             // width: calc(30% -  10px);
             flex: 1 1 calc(33.333% - 20px);
             position: relative;
             overflow:hidden;
+            // box-shadow: 0px  0px 12px 0px #2e756d;
 
             &::after{
-                border-radius: 8px;
-                    bottom: -1px;
+                // border-radius: 8px;
+                border-top-left-radius: 8px;
+                    bottom: 0px;
                     content: "";
-                    left: -1px;
+                    right:0px;
+                    width:100px;
+                    height: 100px;
                     position: absolute;
-                    right: -1px;
-                    top: -1px;
-                    z-index: -1;
+                    background-color: #071817;
+                    // right: -1px;
+                    // top: -1px;
+                    z-index: 0;
     // background: linear-gradient(90deg, #e9d020, #02a48e, #374f4c);
             }
 
@@ -273,8 +297,8 @@ $button-color: #fff;
                 }
             }
             .Vp{
-                font-size: 18px;
-                    font-weight: 600;
+                font-size: 24px;
+                    font-weight: 700;
                     position: relative;
                     z-index: 1;
                     margin-bottom: 15px;
@@ -285,7 +309,7 @@ $button-color: #fff;
                     width: fit-content;
             }
             .Vp1{
-            font-size: 14px;
+            font-size: 18px;
                 letter-spacing: 0.5px;
                 font-weight: 500;
                 color: #141e19;
@@ -498,6 +522,7 @@ $button-color: #fff;
                                 width: 100%;
                                 height: 100%;
                                 border-radius: 8px;
+                                object-fit:cover;
 
                             }
                         }

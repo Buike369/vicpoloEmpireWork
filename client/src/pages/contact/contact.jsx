@@ -159,7 +159,7 @@ setError("invalid Email")
                     </div> */}
 
                     <div className='UUH'>
-                        <div className='ifUs'>We’d love to hear from you! Reach out for video  production, branding, web development, AI services and digital marketing inquiries.</div>
+                        <div className='ifUs'>We’d love to hear from you! Reach out for web development, AI services, Graphic design, Data Analysis and Blockchain technologies inquiries.</div>
                     <div>
                         <div className='graceDay'>Working Days! </div>
                         <div className='wedDis'>Monday -Saturday 7:00am- 5PM. </div>

@@ -11,8 +11,8 @@ import Testimony  from "../../components/testimony/testimony"
 
 const Home = () => {
 
-  const card =[{id:1, img:faLaptopCode, header:"Web Development", text:"Build dynamic, secure, user-friendly websites for everyone.",img2:"/mmm1.jpeg"},{id:2, img:faPalette, header:"AI Services", text:" Automate tasks, enhance decisions and drive business innovation efficiently ", img2:"/mmm2.jpeg"},{id:3, img:faCameraRetro, header:"Data Analysis", text:"Uncover insights, trends, and patterns for informed decision making.",img2:"/mmm3.jpeg"},{id:4,img: faVideo, header:'Graphic Design',text:"Creates visual content to communicate idea, messages, and branding.",img2:"/mmm.jpeg"},{id:5, img:faRobot, header:"Blockchain Technology", text:"Develop AI-powered, secure, user-friendly solutions for everyone.", img2:"/mmm4.jpeg"},{id:6, img:faRobot, header:"Other Services", text:"Offer tailored solutions to meet diverse business needs.", img2:"/AAai.png"}]
-   const card1 =[{id:1,img:"/phot.avif", header:'Video Production Service',text:"Expertly crafted videos that engage audiences and elevate your brand's storytelling to new heights."},{id:2,img:"/photong.avif", header:"Branding & Design", text:"Unique branding solutions that resonate with your audience, enhancing your identity and market presence effectively."},{id:3, img:'/phot1.avif', header:"Strategic marketing services", text:"Engaging digital marketing strategies for growth."}]
+  const card =[{id:1, img:faLaptopCode, header:"Web Development", text:"We build dynamic, secure, user-friendly websites for everyone.",img2:"/mmm1.jpeg"},{id:2, img:faPalette, header:"AI Services", text:"We automate tasks, enhance decisions and drive business innovation efficiently ", img2:"/mmm2.jpeg"},{id:3, img:faCameraRetro, header:"Data Analysis", text:"We uncover insights, trends, and patterns for informed decision making.",img2:"/mmm3.jpeg"},{id:4,img: faVideo, header:'Graphic Design',text:"We creates visual content to communicate idea, messages, and branding.",img2:"/mmm.jpeg"},{id:5, img:faRobot, header:"Blockchain Technology", text:"We develop AI-powered, secure, user-friendly solutions for everyone.", img2:"/mmm4.jpeg"},{id:6, img:faRobot, header:"Other Services", text:"We offer tailored solutions to meet diverse business needs.", img2:"/loloK1.jpeg"}]
+   const card1 =[{id:1,img:"/lolok3.jpeg", header:'Web Development',text:"We provide responsive web development, e-commerce solutions, custom applications, and API integrations using modern technologies for seamless user experiences"},{id:2,img:"/photong.avif", header:"AI Services", text:"We offer AI solutions, including chatbots, predictive analytics, automation, and machine learning models to enhance business efficiency and decision-making."},{id:3, img:'/lolok4.jpeg', header:"Data Analysis", text:"We provide data analysis services, including data visualization, predictive modeling, insights extraction, and reporting to drive informed business decisions."}]
 
      const { hash } = useLocation();
 
@@ -41,8 +41,8 @@ const Home = () => {
           <p className='enn1'>Transforming ideas into stunning visual experiences for your business.</p>
          <a href="/services"><div className='rt'> <button>Discover</button></div></a>
         </div>
-        <div className='sectionMainA  imgMaDiv'>
-          <img src="/photo23.avif" alt="" className='imgMain' />
+        <div className='sectionMainA ff '>
+          <img src="/loloKs.jpeg" alt="" className='imgMain' />
         </div>
 
       </div>
@@ -75,7 +75,7 @@ const Home = () => {
         <div className='Craft1 rtr'data-aos="fade-up" data-aos-duration="500"
              data-aos-easing="linear" >
           {/* <div className="CratU"></div> */}
-          <div  className='Craft2'>Creating Compelling Visual Journey</div>
+          <div  className='Craft2'>What we do best</div>
           
           <p className='Craft3'>At VicpoloEmpire, we specialize in premium web development, AI services,  Data  analysis, Graphic design and Blockchain technology to help brands connect and engage with their audience through innovative visual experiences.</p>
    <div className='Craft7'>
@@ -99,10 +99,10 @@ const Home = () => {
 <div  className="bb">
       <div className='MdSolutions'>
         <div className='MdSolutions1' data-aos="fade-right" data-aos-duration="500"
-             data-aos-easing="linear"  >Artistic Media Concepts</div>
+             data-aos-easing="linear"  >Excellence in Technology solutions  </div>
         <div className='TN'></div>
         <div className='MdSolutions2' data-aos="fade-right" data-aos-duration="500"
-             data-aos-easing="linear" >Transforming brands through innovative video production, design,   web development, AI services and digital marketing strategies tailored for success.</div>
+             data-aos-easing="linear" >We Transform Brands through our web development  job, create  graphic design work, render  AI services, blockchain projects,  and data analysis tailored for success.</div>
 
         <div  className='MdSolutions3'>
           {card1.map((app)=>(
