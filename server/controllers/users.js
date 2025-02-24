@@ -18,6 +18,10 @@ const { db } = require('../db.js')
 
 // }
 
+const EmailSub =()=>{
+    cnsts
+}
+
 const getAllUser = (req, res) => {
     db.query('SELECT id, name, email, role FROM users', (err, result) => {
         if (err) return res.status(500).json({ error: err.message });
