@@ -86,7 +86,7 @@ const Header = () => {
             {/* <p className='AMAd'>VicopoloEmpire </p> */}
             </div>
             </a></div>
-            {(tr === "/register") || (tr === "/login") || (tr === "/forget-password") || (tr === "/update-password")  ? "":
+            {(tr === "/register") || (tr === "/login") || (tr === "/forget_password") || (tr === "/update-password")  ? "":
             <div >
         <div className="nacBar">
            
@@ -106,7 +106,7 @@ const Header = () => {
         </div>
         }
 
-        {(tr === "/register") || (tr === "/login") || (tr === "/forget-password") || (tr === "/update-password") ? "" :
+        {(tr === "/register") || (tr === "/login") || (tr === "/forget_password") || (tr === "/update-password") ? "" :
         <div >
 
           <div className="hamburgerMenu">

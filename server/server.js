@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const authRoutes = require('./routes/auth.js');
 const userRoutes = require('./routes/usersRoute');
 const contactUsRoutes = require('./routes/formContact.js');
+const EmailList = require("./routes/users.js")
 
 const app = express()
 
@@ -40,6 +41,7 @@ app.use(
 app.use("/api/auth", authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/form', contactUsRoutes);
+app.use('/api/email-list', EmailList);
 
 
 app.listen(port, ()=>{

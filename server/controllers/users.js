@@ -17,10 +17,7 @@ const { db } = require('../db.js')
 
 
 // }
-
-const EmailSub =()=>{
-    cnsts
-}
+// 
 
 const getAllUser = (req, res) => {
     db.query('SELECT id, name, email, role FROM users', (err, result) => {
@@ -51,6 +48,7 @@ const emailSubscription = async (req, res) => {
 }
 
 module.exports = {
-    getAllUser
+    getAllUser,
+    emailSubscription
 
 };

@@ -47,7 +47,7 @@ const handleClickShowPassword = () => {
   
     return(
         <div className="BgColor" >
-            {/* <Navbar/> */}
+            <Navbar/>
 
             <div className="formDivPAd">
             
