@@ -8,7 +8,7 @@ $button-color: #fff;
 
     .FFJ{
            position: absolute;
-    background: #05231f;
+    background: #12685cf1;
     right: 80px;
     top: 500px;
     width: 400px;
@@ -145,7 +145,7 @@ $button-color: #fff;
             }
 
             .enn1 {
-                color: #cbd5d4;
+                color: #212424;
                 @media(max-width:768px) {
                         text-align: center;
                     }
@@ -202,7 +202,7 @@ $button-color: #fff;
     }
 
     .OurService{
-            background: linear-gradient(180deg, #050505, #0c0e0e, #00a38d36);
+    background: linear-gradient(180deg, #f0f1f1, #e9efee, rgb(238 240 240));
         padding:20px 10px 80px  10px;
 
         .LineP{
@@ -261,7 +261,7 @@ $button-color: #fff;
             }
 
                          @media(max-width:768px) {
-                             width:100%;
+                             width:95%;
                              max-width: 500px;
                              margin: 0   auto  0px auto;
             
@@ -326,7 +326,7 @@ $button-color: #fff;
 
         .FT{
             padding:30px 15px 40px 15px;
-    background: linear-gradient(180deg, #042520, #061916, rgb(5 5 5));
+        background: linear-gradient(180deg, #11bda5, #27534c, rgb(32 67 61));
 
         .Craft{
             display: flex;
@@ -425,6 +425,7 @@ $button-color: #fff;
                     }
                     .Craft5{
                         font-size: 45px;
+                        color:#fff;
                         font-weight: 700;
                           position:relative;
                     z-index:1;
@@ -442,7 +443,7 @@ $button-color: #fff;
                .bb{
                     // background: linear-gradient(180deg, #050606, #050f0d, rgb(8 27 24));
 
-                background: linear-gradient(180deg, #050606, #050f0d, rgb(4 35 30));
+                background: linear-gradient(180deg, #20433d, #224741, rgb(48 174 156));
 
                 .MdSolutions{
                      width: 100%;
@@ -475,6 +476,7 @@ $button-color: #fff;
                         font-size: 42px;
                         text-align: center;
                         font-weight: 700;
+                        color:#fff;
 
                         @media(max-width:768px) {
                                 // font-size: 28px;
@@ -531,12 +533,13 @@ $button-color: #fff;
                                 font-weight: 500;
                                 min-height: 45px;
                                 margin-top: 10px;
-                                color: #00a38d;
+                                color: #fff;
                         }
 
                         .MdSolutions7{
                             font-size: 16px;
                             font-weight: 400;
+                            color:#dad7d7;
                             margin-bottom:20px;
 
                         }
@@ -549,7 +552,7 @@ $button-color: #fff;
                 .GGa{
                     // background: linear-gradient(180deg, #081b18, #050f0d, rgb(5 5 5));
 
-                    background: linear-gradient(180deg, #04231e, #050f0d, rgb(5 5 5));
+                        background: linear-gradient(180deg, #cdd0d0, #dddede, rgb(242 242 242));
                 .Ga{
                     width: 100%;
                     max-width: 1200px;
@@ -616,7 +619,7 @@ $button-color: #fff;
                         width: 100%;
                         max-width: 60%;
                         margin: 2px auto 30px auto;
-                        color:#b5b5b5;
+                        color:#080808e0;
                         text-align: center;
 
                         @media(max-width:768px) {

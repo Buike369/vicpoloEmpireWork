@@ -91,11 +91,12 @@ const Header = () => {
         <div className="nacBar">
            
           <ul className="NavbarUl" >
-            <li><a href="/about" className="navbar1_link">About Us</a></li> 
+            <li><div  className="navbar1_link">Explore</div></li> 
+            <li><div className='searchDiv'><input type="search" placeholder="search for courses" className="search"/></div></li>
            
-             <li ><a href="/services" className="navbar1_link">Services</a></li>
-                          <li ><a href="/terms" className="navbar1_link">Terms</a></li>
-              <li ><Link to="/#portfolio" className="navbar1_link">Portfolio</Link></li>
+             <li ><a href="" className="navbar1_link">Learn</a></li>
+                          <li ><a href="/services" className="navbar1_link">Services</a></li>
+              <li ><a href="/about" className="navbar1_link">About</a></li>
                             {/* <li ><a href="/" className="navbar1_link">Career</a></li>
                <li ><a href="/" className="navbar1_link">Blog</a></li> */}
 
@@ -111,9 +112,10 @@ const Header = () => {
 
           <div className="hamburgerMenu">
             <div className='reff'>
+               <div><FontAwesomeIcon icon={faSearch}  className=" " style={{fontSize:"26px",color:"#0b4f45",marginLeft:"5px",marginTop:"3px"}}  /></div>
             <div><a href="/contact"><button className='RegRef'>Contact Us</button></a></div>
             {/* <div><button>O/F</button></div> */}
-            <div><FontAwesomeIcon icon={faBars}  className=" " style={{fontSize:"26px",color:"#fff",marginLeft:"5px",marginTop:"3px"}} onClick={handleCheckboxChange} /></div>
+            <div><FontAwesomeIcon icon={faBars}  className=" " style={{fontSize:"26px",color:"#000",marginLeft:"5px",marginTop:"3px"}} onClick={handleCheckboxChange} /></div>
             </div>
     {/* <input id="menuToggle" type="checkbox"  checked={isChecked}  onChange={handleCheckboxChange}/>
     <label className="menuBtn" for="menuToggle">
@@ -124,8 +126,14 @@ const Header = () => {
      <div className={`menuBox ${addRight}`} >
       <div className='baclo' onClick={handleCheckboxChange}></div>
     <ul className="menuBox24">
-      <li><div className='gFerL'><FontAwesomeIcon icon={faXmark}  className=" " style={{fontSize:"26px",color:"#fff"}} onClick={handleCheckboxChange} /></div></li>
+      <li><div className='gFerL'><FontAwesomeIcon icon={faXmark}  className=" " style={{fontSize:"26px",color:"#000"}} onClick={handleCheckboxChange} /></div></li>
       <li><div className='reff aaFF'><a href="/login" onClick={handleCheckboxChange}><button className='RegRef' style={{background:"#2e756d"}}>Log In</button></a><a href="/register"><button className='RegRef'>Register</button></a></div></li>
+                  <li><a className="menuItem" href="/" >Web Development</a></li>
+                  <li><a className="menuItem" href="/" >Mobile Development</a></li>
+                                    <li><a className="menuItem" href="/" >AI Services</a></li>
+                                                      <li><a className="menuItem" href="/" >Graphic Design</a></li>
+                                                                        <li><a className="menuItem" href="/" >Digital Marketing</a></li>
+
             <li><a className="menuItem" href="/about" >About Us</a></li>
             <li><a className="menuItem" href="/services" >Services</a></li>
                         <li><a className="menuItem" href="/terms"  ><div >Terms</div></a></li>
@@ -142,7 +150,7 @@ const Header = () => {
           </div>
           :""}
        </li> */}
-              <li><a className="menuItem" href="/#portfolio" >Portfolio</a></li>
+              {/* <li><a className="menuItem" href="/#portfolio" >Portfolio</a></li> */}
 
 
 

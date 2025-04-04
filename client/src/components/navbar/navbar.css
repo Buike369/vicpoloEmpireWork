@@ -13,7 +13,18 @@ a {
     font-weight: 600;
 
 }
+.searchDiv{
+    width:100%;
+    min-width: 200px;
+    max-width: 400px;
 
+}
+.search{
+    padding:6px 10px;
+    border-radius: 10px;
+    width:100%;
+    border:1px solid #2e756da6;
+}
 .AMAd {
     /* color: #fff; */
     color: #ffffff;
@@ -33,7 +44,7 @@ a {
 .subCap {
 
 
-    background-color: #191f1f57;
+    background-color: #ffffff52;
     /* background-color: #1015259e; */
     border-bottom: 1px solid #2e756d30;
     position: fixed;
@@ -168,7 +179,7 @@ a {
 
 .navbar1_link {
     /* color: #ffffffd1; */
-    color: #fff;
+    color: #000000;
 
     font-weight: 500;
     border-radius: 0.5rem;
@@ -181,10 +192,10 @@ a {
 .navbar1_link:hover{
     color:#4fddc1;
 }
-.wewem:hover{
+/* .wewem:hover{
     background-color:#ff !important;
     color:#000 !important
-}
+} */
 
 @media (max-width:768px) {
 

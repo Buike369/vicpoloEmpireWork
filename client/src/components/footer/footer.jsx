@@ -28,10 +28,10 @@ const Footer = () => {
             < div className='FooterDiv13'>We craft visual solutions that engage audiences effectively.</ div >
             < div className='FooterDiv14'>
               <ul>
-                <li><a href=""><FontAwesomeIcon icon={faFacebook}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  /></a></li>
-                   <li><a href=""><FontAwesomeIcon icon={faXTwitter}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faInstagram}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  /></a></li>
-                         <li><a href=""><FontAwesomeIcon icon={faTiktok}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  /></a></li>
+                <li><a href=""><FontAwesomeIcon icon={faFacebook}  className=" " style={{fontSize:"20px",color:"#000",marginRight:"8px"}}  /></a></li>
+                   <li><a href=""><FontAwesomeIcon icon={faXTwitter}  className=" " style={{fontSize:"20px",color:"#000",marginRight:"8px"}}  /></a></li>
+                      <li><a href=""><FontAwesomeIcon icon={faInstagram}  className=" " style={{fontSize:"20px",color:"#000",marginRight:"8px"}}  /></a></li>
+                         <li><a href=""><FontAwesomeIcon icon={faTiktok}  className=" " style={{fontSize:"20px",color:"#000",marginRight:"8px"}}  /></a></li>
               </ul>
             </ div >
           </ div >
