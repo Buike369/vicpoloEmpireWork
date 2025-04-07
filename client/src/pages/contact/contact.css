@@ -15,7 +15,7 @@ input[type="number"] {
 }
 
 .LKIP{
-    color:#fff;
+    color:#000;
 }
 .LKIP:hover{
     color:#51bfb2
@@ -24,7 +24,7 @@ input[type="number"] {
     color:#51bfb2;
 }
 .tWE:hover{
-   color:#fff; 
+   color:#000; 
 }
 .connectWithUs {
     font-size: 40px;
@@ -34,7 +34,7 @@ input[type="number"] {
 
 .contcat {
     /* background: linear-gradient(180deg, #080b18, #080b18, #151b2d); */
-    background: linear-gradient(180deg, #020605, #0c1917, #0d1817);
+    /* background: linear-gradient(180deg, #020605, #0c1917, #0d1817); */
 
     padding: 0 15px 20px 15px
 }
@@ -120,7 +120,7 @@ input[type="number"] {
     line-height: 1.6;
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
+    color: #000;
     margin-bottom: 15px;
 }
 
@@ -254,13 +254,13 @@ input[type="number"] {
 .graceDay {
     font-size: 18px;
     line-height: 1.6;
-    color: #ffffff;
+    color: #000;
     font-weight: 500;
     margin: 15px 0;
 }
 
 .wedDis {
-    color: #dee2ed;
+    color: #3637388a;
     font-size: 14px;
     line-height: 1.6;
     letter-spacing: 0.5px;
@@ -280,7 +280,7 @@ input[type="number"] {
 }
 
 .deed {
-    color: #fff;
+    color: #000;
     font-weight: 500;
     font-size: 18px;
     margin: 15px 0;

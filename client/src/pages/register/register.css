@@ -14,8 +14,8 @@
 .page10 {
     box-shadow: none;
 
-    border: 1px solid #0e4739 !important;
-    color: #fff !important;
+    /* border: 1px solid #0e4739 !important; */
+    color: #000 !important;
 }
 
 .page11 {
@@ -39,25 +39,26 @@
     align-items: center ;
     justify-content: center;
     /* margin: auto auto; */
-    height: 100vh;
+    height: calc(100vh - 20vh);
     
 }
 
 .Form_Div {
     width: 100%;
-    max-width: 450px;
-    height: auto;
-    border: 1px solid #21443f;
-    background-color: #0a141475 !important;
-    padding: 15px 15px;
-    border-radius: 10px;
-    position: relative;
-    z-index: 5;
+        max-width: 450px;
+        height: auto;
+        border: 1px solid #eeeeee94;
+        background-color: #fffefe3b !important;
+        padding: 15px 15px;
+        border-radius: 10px;
+        position: relative;
+        z-index: 5;
+        box-shadow: 0px 1px 10px 1px #d9d9e1ab;
 
 
 }
 .LabNa{
-    color:#b1b1b1b8;
+    color:#25252565;
     margin-bottom: 3px;
 }
 
@@ -88,7 +89,7 @@
     text-align: center;
     margin-bottom: 15px;
     margin-top: 10px;
-    color: #ffffff;
+    color: #000;
     font-size: 20px;
     font-weight: 500;
 }
@@ -101,25 +102,25 @@
     border-radius: 5px;
     outline: 0;
     border: 1px solid #8cd9ce6e;
-    color: #fff;
+    color: #000;
 }
 
 .Full_Name:-webkit-autofill {
     background-color: transparent !important;
-    -webkit-box-shadow: 0 0 0px 1000px #151b2d inset !important;
-    -webkit-text-fill-color: #fff !important
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+    -webkit-text-fill-color: #000 !important
 }
 
 .Full_Name:-webkit-autofill:focus {
     background-color: transparent !important;
-    -webkit-box-shadow: 0 0 0px 1000px #151b2d inset !important;
-    -webkit-text-fill-color: #fff !important
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+    -webkit-text-fill-color: #000 !important
 }
 
 .Full_Name:-webkit-autofill:hover {
     background-color: transparent !important;
-    -webkit-box-shadow: 0 0 0px 1000px #151b2d inset !important;
-    -webkit-text-fill-color: #fff !important
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+    -webkit-text-fill-color: #000 !important
 }
 
 .Full_Name:active,

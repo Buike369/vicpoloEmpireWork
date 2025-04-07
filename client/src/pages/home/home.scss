@@ -8,7 +8,7 @@ $button-color: #fff;
 
     .FFJ{
            position: absolute;
-    background: #12685cf1;
+    background: #12685c75;
     right: 80px;
     top: 500px;
     width: 400px;
@@ -232,7 +232,7 @@ $button-color: #fff;
             }
 
         .serviceCard {
-            padding: 130px 15px 25px 15px;
+    padding: 22px 10px 20px 10px;
             border-radius: 14px;
             
             border: 3px solid #2e756d;
@@ -245,55 +245,45 @@ $button-color: #fff;
             // box-shadow: 0px  0px 12px 0px #2e756d;
 
             &::after{
-                // border-radius: 8px;
                 border-top-left-radius: 8px;
                     bottom: 0px;
                     content: "";
-                    right:0px;
-                    width:100px;
+                    right: 0px;
+                    width: 100px;
                     height: 100px;
                     position: absolute;
-                    background-color: #071817;
-                    // right: -1px;
-                    // top: -1px;
+                    background-color: #19dbd052;
+                    filter: blur(55px);
                     z-index: 0;
-    // background: linear-gradient(90deg, #e9d020, #02a48e, #374f4c);
             }
 
                          @media(max-width:768px) {
-                             width:95%;
+                             width:98%;
                              max-width: 500px;
                              margin: 0   auto  0px auto;
             
                          }
             .IconImg{
                 width:100px;
-                height: 100px;
-                // position: relative;
-                //     z-index: 1;
+                // height: 100px;
+                
               
 
                 .serviceIcon{
-                    font-size: 5rem;
-                        color: #00a38d;
+                    // font-size: 5rem;
+                    //     color: #00a38d;
                         margin-right: 1rem;
                 }
             }
             .FImg{
-        width: 100%;
-            /* height: 100px; */
-            position: absolute;
-            top: 0;
-            right: 0;
-            left: 0;
-            bottom: -10px;
+width: 100%;
+    height: 120px;
                 img{
-                       width: 100%;
-    // osition: absolute;
-    // top: -88px;
-    // right: 42px;p
-    // transform: rotate(207deg);
-                  
+                    width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                        border: 2px solid #2e756d;
                 }
             }
             .Vp{
@@ -302,8 +292,8 @@ $button-color: #fff;
                     position: relative;
                     z-index: 1;
                     margin-bottom: 15px;
-                    color: #1b1c1c;
-                    background: #fff;
+                    color: #fff;
+                    // background: #fff;
                     padding: 3px 10px;
                     border-radius: 4px;
                     width: fit-content;
@@ -312,12 +302,12 @@ $button-color: #fff;
             font-size: 18px;
                 letter-spacing: 0.5px;
                 font-weight: 500;
-                color: #141e19;
+                color: #9d9f9e;
                 position: relative;
                 padding: 5px 10px;
                 border-radius: 4px;
                 z-index: 1;
-                background: #fff;
+                // background: #fff;
             }
         }
     }
@@ -326,7 +316,7 @@ $button-color: #fff;
 
         .FT{
             padding:30px 15px 40px 15px;
-        background: linear-gradient(180deg, #11bda5, #27534c, rgb(32 67 61));
+        // background: linear-gradient(180deg, #11bda5, #27534c, rgb(32 67 61));
 
         .Craft{
             display: flex;
@@ -385,7 +375,7 @@ $button-color: #fff;
                 .Craft2{
                     font-size: 44px;
                     font-weight: 700;
-                    color:#ffffff;
+                    color:#000;
                     position:relative;
                     z-index:1;
 
@@ -401,7 +391,7 @@ $button-color: #fff;
                     font-weight:400 ;
                       position:relative;
                     z-index:1;
-                    color:#9fa7a6;
+                    color:#000;
 
                     @media(max-width:768px) {
                             
@@ -425,7 +415,7 @@ $button-color: #fff;
                     }
                     .Craft5{
                         font-size: 45px;
-                        color:#fff;
+                        color:#000;
                         font-weight: 700;
                           position:relative;
                     z-index:1;
@@ -433,7 +423,7 @@ $button-color: #fff;
                     .Craft6{
                           position:relative;
                     z-index:1;
-                    color:#9fa7a6;
+                    color:000;
                     }
                 }
             }
@@ -443,7 +433,7 @@ $button-color: #fff;
                .bb{
                     // background: linear-gradient(180deg, #050606, #050f0d, rgb(8 27 24));
 
-                background: linear-gradient(180deg, #20433d, #224741, rgb(48 174 156));
+                // background: linear-gradient(180deg, #20433d, #224741, rgb(48 174 156));
 
                 .MdSolutions{
                      width: 100%;
@@ -476,7 +466,7 @@ $button-color: #fff;
                         font-size: 42px;
                         text-align: center;
                         font-weight: 700;
-                        color:#fff;
+                        color:#000;
 
                         @media(max-width:768px) {
                                 // font-size: 28px;
@@ -491,7 +481,7 @@ $button-color: #fff;
                         max-width: 60%;
                         margin: 5px auto 25px auto;
                        text-align: center;
-                        color: #dddddd;
+                        color: #000;
 
                         @media(max-width:768px) {
                                max-width: 100%;
@@ -533,13 +523,13 @@ $button-color: #fff;
                                 font-weight: 500;
                                 min-height: 45px;
                                 margin-top: 10px;
-                                color: #fff;
+                                color: #000;
                         }
 
                         .MdSolutions7{
                             font-size: 16px;
                             font-weight: 400;
-                            color:#dad7d7;
+                            color:#000;
                             margin-bottom:20px;
 
                         }
@@ -552,7 +542,7 @@ $button-color: #fff;
                 .GGa{
                     // background: linear-gradient(180deg, #081b18, #050f0d, rgb(5 5 5));
 
-                        background: linear-gradient(180deg, #cdd0d0, #dddede, rgb(242 242 242));
+                        // background: linear-gradient(180deg, #cdd0d0, #dddede, rgb(242 242 242));
                 .Ga{
                     width: 100%;
                     max-width: 1200px;

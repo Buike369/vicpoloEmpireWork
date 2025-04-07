@@ -12,16 +12,16 @@ const Footer = () => {
         < div className='FooterDiv8 sec'>
           < div className='FooterDiv3'>News  letter</ div >
           < div className='FooterDiv4'>Stay upto date to  get the latest  news from us.</ div >
-          < div className='FooterDivf'>Enter your email address</ div >
+          {/* < div className='FooterDivf'>Enter your email address</ div > */}
           <div className="FooterDiv5">
-            < div className='FooterDiv6'><input type="email" placeholder='Enter your email'/></ div >
+            < div className='FooterDiv6'><input type="email" placeholder='Enter your email address'/></ div >
             < div className='FooterDiv7'><button>Subscribe</button></ div >
           </div>
         </ div >
          < div className='FooterDiv8'>
           < div className='FooterDiv3'>Design</ div >
-          < div className='FooterDiv9'><a  href="tel:+2348167029609" style={{color:"#767676"}}>+234 907 1071 018</a></ div >
-          < div className='FooterDiv10'><a  href="mailto:support@vicpoloempire.com" style={{color:"#767676"}}>support@vicpoloempire.com</a></ div >
+          < div className='FooterDiv9'><a  href="tel:+2348167029609" style={{color:"#585757"}}>+234 907 1071 018</a></ div >
+          < div className='FooterDiv10'><a  href="mailto:support@vicpoloempire.com" style={{color:"#585757"}}>support@vicpoloempire.com</a></ div >
          </ div >
           < div className='FooterDiv8'>
             < div className='FooterDiv3'>Services</ div >
