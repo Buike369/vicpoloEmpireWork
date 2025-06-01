@@ -1,0 +1,30 @@
+$primary-color: #000;
+$background-color: #e1e1e270;
+$button-color: #00a38d;
+$liar-background: linear-gradient(90deg, #00a38d 0%, rgb(0, 163, 141) 50%, rgb(219, 174, 96) 50%, rgb(219, 174, 96) 100%);
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+body {
+  // margin: 0;
+  // padding: 0;
+
+  background: $background-color;
+  color: $primary-color;
+  font-size: 16px;
+  font-family: "Mulish", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+

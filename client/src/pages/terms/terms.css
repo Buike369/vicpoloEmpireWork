@@ -1,0 +1,76 @@
+.privacyHousing {
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto 0 auto;
+    color: #00000099;
+}
+
+.priP {
+    /* background: linear-gradient(180deg, #080b18, #080b18, #151b2d); */
+    padding: 20px 15px 60px 15px;
+}
+
+.mkil {
+    display: flex;
+
+
+}
+
+.lion {
+    margin-right: 8px;
+}
+
+.lico {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.InfoCollect {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.DivGu {
+    padding-left: 5px;
+}
+
+.toPros {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+.WeUe {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.fontW {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #35e1c9;
+    letter-spacing: 0.5px;
+}
+
+.change {
+    color: #000;
+    font-family: 18px;
+    font-weight: 500;
+}
+
+@media(min-width:769px) {
+
+    .toPros,
+    .WeUe {
+        font-size: 16px;
+    }
+}

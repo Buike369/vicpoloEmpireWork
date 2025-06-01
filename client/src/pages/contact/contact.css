@@ -1,0 +1,376 @@
+.coverDC {
+    width: 100%;
+    max-width: 1100px;
+    margin: 60px auto 0 auto;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.LKIP{
+    color:#000;
+}
+.LKIP:hover{
+    color:#51bfb2
+}
+.tWE{
+    color:#51bfb2;
+}
+.tWE:hover{
+   color:#000; 
+}
+.connectWithUs {
+    font-size: 40px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.contcat {
+    /* background: linear-gradient(180deg, #080b18, #080b18, #151b2d); */
+    /* background: linear-gradient(180deg, #020605, #0c1917, #0d1817); */
+
+    padding: 0 15px 20px 15px
+}
+
+.connectWithUs1 {
+    font-weight: 600;
+    color: #38e3cb;
+    font-size: 32px;
+    -webkit-text-fill-color: #0000;
+    background: linear-gradient(168deg, #8cd3cb 7.37%, #3cadd5 25.38%, #14a6c5 42.56%, #38e2cb 60.52%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: #0000;
+}
+
+.contactFormD {
+    display: flex;
+}
+
+.itin {
+    background-color: #35e1c9;
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    z-index: 0;
+    top: -15%;
+    right: 20%;
+    filter: blur(470px);
+}
+
+.loade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    /* height: 100vh; */
+    z-index: 1000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #10152573;
+    ;
+    backdrop-filter: blur(calc(0.5rem* 1));
+    color: #fff;
+}
+
+.error {
+    color: red;
+
+}
+
+.success {
+    color: green;
+
+}
+
+.ddV {
+    width: 60%;
+}
+
+.ddV5 {
+    width: 40%;
+}
+
+.ddV23 {
+    width: 85%;
+}
+
+/* .bgCover{
+    background-color: #2e5444;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 10;
+} */
+
+.ifUs {
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.LabelCon {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffffb8;
+    margin-bottom: 4px;
+}
+
+.inputsConnect {
+    width: 100%;
+    border: 0;
+    padding: 10px 10px;
+    /* border-radius: 8px; */
+    font-size: 16px;
+    outline: 0;
+    color: #fff;
+    background: inherit;
+}
+
+
+.inputsConnect:-webkit-autofill {
+    background-color: transparent !important;
+    -webkit-box-shadow: 0 0 0px 1000px #151b2d inset !important;
+    -webkit-text-fill-color: #fff !important
+}
+
+.inputsConnect:-webkit-autofill:focus {
+    background-color: transparent !important;
+    -webkit-box-shadow: 0 0 0px 1000px #151b2d inset !important;
+    -webkit-text-fill-color: #fff !important
+}
+
+.inputsConnect:-webkit-autofill:hover {
+    background-color: transparent !important;
+    -webkit-box-shadow: 0 0 0px 1000px #151b2d inset !important;
+    -webkit-text-fill-color: #fff !important
+}
+
+.inputsConnect:active,
+.inputsConnect:focus,
+.inputsConnect:active {
+    background-color: inherit;
+}
+
+.inputsConnect::placeholder {
+    color: #818a99;
+    /* Change this to your desired color */
+    opacity: 0.3;
+    /* Optional: Set opacity for better visibility */
+}
+
+.textF::placeholder {
+    color: #2f415f;
+    /* Change this to your desired color */
+    opacity: 0.3;
+    /* Optional: Set opacity for better visibility */
+}
+
+.youCon {
+    display: flex;
+
+}
+
+.youCon1 {
+    width: 50%;
+}
+
+.youCon14 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.fdn {
+    padding: 10px;
+    background: #0a1010;
+    /* background: #151b2d; */
+    border-radius: 8px;
+}
+
+.visitLC {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #15604d
+}
+
+.textF {
+    width: 100%;
+    height: 150px;
+    /* border-radius: 8px; */
+    border: 0;
+    padding: 10px 15px;
+    outline: 0;
+    color: #2f3a5b;
+    background-color: inherit;
+    border-bottom: 1px solid #0f2d29;
+}
+
+.lij {
+    background-color: #2e5444;
+
+}
+
+.messA {
+    color: #ffffff99;
+    margin-bottom: 4px;
+}
+
+.SumbitConnect {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 60px;
+    text-align: center;
+    border: 1px solid rgb(51 57 87);
+    margin: 20px 0 40px 0;
+    background-color: #2e756d;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.SumbitConnect:hover {
+    background-color: #fff;
+    color: #000
+}
+
+.graceDay {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #000;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.wedDis {
+    color: #3637388a;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+
+}
+
+.letGo {
+    display: flex;
+    align-items: center;
+    /* background: #121829; */
+    border-bottom: 1px solid #0d2320;
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    padding: 2px 10px;
+    margin-bottom: 12px;
+
+
+}
+
+.deed {
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.noLike {
+    margin-right: 5px;
+    color: #28dd6d
+}
+
+.lLget {
+    font-size: 24px;
+    color: #fff;
+}
+
+.getLL {
+    color: #7d9590;
+    margin-bottom: 20px;
+}
+
+@media(max-width:768px) {
+    .connectWithUs {
+        font-size: 36px;
+        margin-top: 5px;
+        text-align: justify;
+        /* padding: 2px 15px; */
+    }
+
+    .itin {
+        top: 5%;
+        right: -20%;
+        filter: blur(500px);
+        opacity: 0.4;
+        display: none;
+    }
+
+    .coverDC {
+        margin: 30px auto 0 auto;
+    }
+
+    .contactFormD {
+        flex-direction: column-reverse;
+    }
+
+    .UUH {
+        /* padding:20px 15px;
+        border: 1px solid #151b2d; */
+        /* background: linear-gradient(132deg, #151b2d 7.37%, #151b2d 25.38%, #131d2d 42.56%, #0e262d 60.52%); */
+        /* background: linear-gradient(168deg, #151b2d 7.37%, #151b2d 25.38%, #102c32 42.56%, #0d262d 60.52%); */
+        /* border-radius: 10px; */
+        margin-bottom: 20px;
+        /* opacity: 0.8; */
+    }
+
+    .graceDay {
+        font-size: 18px;
+        margin: 10px 0 0px 0;
+    }
+
+    .coverDiv17 {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 10vh;
+    }
+
+    .ddV {
+        width: 100%;
+        padding: 2px 0px
+    }
+
+    .ddV23 {
+        width: 100%;
+
+    }
+
+    /* .ifUs {
+        text-align: justify;
+    } */
+
+    .youCon {
+        flex-direction: column;
+    }
+
+    .youCon1 {
+        width: 100%;
+    }
+
+    .cll {
+        margin-bottom: 8px;
+    }
+
+}
