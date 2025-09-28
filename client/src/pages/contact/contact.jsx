@@ -129,7 +129,7 @@ setError("invalid Email")
                             <p className='getLL'> Fill out the form, and we will contact you</p>
                             {inputs.map((app,id)=>(
                                 <div key={id}>
-                            {/* <div className='LabelCon'>{app.label}</div> */}
+
                             <div className='letGo'>
                                 <FontAwesomeIcon icon={app.icon}  className=" " style={{fontSize:"20px",color:"#000",marginRight:"8px"}}  />
                                 <input type={app.type} className='inputsConnect' name={app.name} onChange={changeHandle} placeholder={app.holder} value={app.value} ref={inputRef}/>

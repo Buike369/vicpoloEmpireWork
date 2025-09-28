@@ -26,7 +26,7 @@
     display:flex;
     gap:20px;
     width:100%;
-    max-width:1200px;
+    max-width:1400px;
     margin:0  auto  !important;
 }
 .why-choose-us{
@@ -38,6 +38,7 @@ padding-bottom: 30px;
 }
 .CH{
     flex:1;
+    height:250px;
 }
 
 .aboutUsHeaderTextdescription{
@@ -79,7 +80,7 @@ padding-bottom: 30px;
 .Welcome {
   color:#fff;
   font-size: 52px;
-  line-height: 40px;
+  /* line-height: 40px; */
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
     background: linear-gradient(168deg, #8cd3cb 7.37%, #3cadd5 25.38%, #308b7c 42.56%, #6dc59c 60.52%);
     -webkit-background-clip: text;
@@ -108,7 +109,7 @@ ul {
   content: '•';
   position: absolute;
   left: 0;
-  color: #fff;
+  color: #000;
 }
 
 .service-item {
@@ -116,9 +117,9 @@ display: flex;
     flex-direction: column;
     margin: 0.7rem 0;
     padding: 80px 15px 20px 15px;
-    border: 1px solid #6ca58d;
+     border: 1px solid #6ca58d5c;
     border-radius: 20px;
-    box-shadow: 0px 2px 16px 2px #26484426;
+    box-shadow: 0px 2px 16px 2px #e3f0ef26;
     backdrop-filter: blur(1000px);
     background: linear-gradient(71deg, #ecf1f9, #eff2f0, #edf2fa);
 }
@@ -171,7 +172,7 @@ font-size: 36px;
 }
 @media(min-width:769px){
   .bbopo{
- width:80%;
+ width:63%;
  margin:auto
 }
 }
