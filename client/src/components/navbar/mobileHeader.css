@@ -68,18 +68,17 @@
 }
 
 .RegRef {
-    outline: 0;
-        padding: 4px 10px;
-        border-radius: 8px;
-        border: 1px solid #4b7575;
-        color: #fff;
-        font-size: 14px;
-        font-weight: 400;
-        letter-spacing: 0.3px;
-        font-variant: small-caps;
-        /* background-color: #0a0e1a; */
-        background-color: #111113;
-        box-shadow: 0px 2px 15px 2px #3264568c;
+   outline: 0;
+    padding: 4px 10px;
+    border-radius: 8px;
+    border: 1px solid #4b7575;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    font-variant: small-caps;
+    background-color: #0b4f45;
+    box-shadow: 0px 2px 15px 2px #9ba8a48c;
 }
 
 .cac {
