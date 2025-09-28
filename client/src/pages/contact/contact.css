@@ -29,7 +29,8 @@ input[type="number"] {
 .connectWithUs {
     font-size: 40px;
     margin-top: 10px;
-    color: #ffffff;
+    color: #000;
+    margin-bottom: 15px;
 }
 
 .contcat {
@@ -138,27 +139,27 @@ input[type="number"] {
     /* border-radius: 8px; */
     font-size: 16px;
     outline: 0;
-    color: #fff;
+    color: #000;
     background: inherit;
 }
 
 
 .inputsConnect:-webkit-autofill {
     background-color: transparent !important;
-    -webkit-box-shadow: 0 0 0px 1000px #151b2d inset !important;
-    -webkit-text-fill-color: #fff !important
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+    -webkit-text-fill-color: #000 !important
 }
 
 .inputsConnect:-webkit-autofill:focus {
     background-color: transparent !important;
-    -webkit-box-shadow: 0 0 0px 1000px #151b2d inset !important;
-    -webkit-text-fill-color: #fff !important
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+    -webkit-text-fill-color: #000 !important
 }
 
 .inputsConnect:-webkit-autofill:hover {
     background-color: transparent !important;
-    -webkit-box-shadow: 0 0 0px 1000px #151b2d inset !important;
-    -webkit-text-fill-color: #fff !important
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+    -webkit-text-fill-color: #000 !important
 }
 
 .inputsConnect:active,
@@ -168,14 +169,14 @@ input[type="number"] {
 }
 
 .inputsConnect::placeholder {
-    color: #818a99;
+    color: #000;
     /* Change this to your desired color */
     opacity: 0.3;
     /* Optional: Set opacity for better visibility */
 }
 
 .textF::placeholder {
-    color: #2f415f;
+    color: #000;
     /* Change this to your desired color */
     opacity: 0.3;
     /* Optional: Set opacity for better visibility */
@@ -198,9 +199,9 @@ input[type="number"] {
 
 .fdn {
     padding: 10px;
-    background: #0a1010;
-    /* background: #151b2d; */
+    background: #fff;
     border-radius: 8px;
+    border:1px solid #edfdfb;
 }
 
 .visitLC {
@@ -220,7 +221,7 @@ input[type="number"] {
     outline: 0;
     color: #2f3a5b;
     background-color: inherit;
-    border-bottom: 1px solid #0f2d29;
+    border-bottom: 1px solid #d6eae7;
 }
 
 .lij {
@@ -229,7 +230,7 @@ input[type="number"] {
 }
 
 .messA {
-    color: #ffffff99;
+    color: #b2b7b6;
     margin-bottom: 4px;
 }
 
@@ -260,7 +261,7 @@ input[type="number"] {
 }
 
 .wedDis {
-    color: #3637388a;
+    color:#363738;
     font-size: 14px;
     line-height: 1.6;
     letter-spacing: 0.5px;
@@ -270,11 +271,9 @@ input[type="number"] {
 .letGo {
     display: flex;
     align-items: center;
-    /* background: #121829; */
-    border-bottom: 1px solid #0d2320;
-    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    border-bottom: 1px solid #4da2952e;
     padding: 2px 10px;
-    margin-bottom: 12px;
+    margin-bottom: 13px;
 
 
 }
@@ -293,11 +292,12 @@ input[type="number"] {
 
 .lLget {
     font-size: 24px;
-    color: #fff;
+    color: #000;
+    font-weight: 600;
 }
 
 .getLL {
-    color: #7d9590;
+    color: #364643;
     margin-bottom: 20px;
 }
 
